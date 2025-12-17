@@ -15,6 +15,7 @@ async def handle_trade(trade, receipt_timestamp):
     print("receipt:", receipt_timestamp)
 
 def main():
+    print("hola")
     fh = FeedHandler()
     fh.add_feed(
         Binance(
